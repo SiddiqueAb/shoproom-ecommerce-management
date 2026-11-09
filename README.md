@@ -76,7 +76,8 @@ These are development accounts for evaluation. Change the passwords or remove th
 - The `shop_product` table assigns a product to a shop and stores that shop's price, description, thumbnail URL, and customer visibility.
 - A product in the shared catalog is not shown to customers until it has an active assignment in an active shop.
 - Deleting a shop removes its assignments. Deleting a catalog product removes it from every shop.
-- The seed data includes an unassigned product to show that catalog items are not automatically visible in storefronts.
+- Green Basket is seeded with 22 active listings, each with a product image URL. The demo images are served by Unsplash and used under the [Unsplash License](https://unsplash.com/license); they need an internet connection to load.
+- The seed data also includes an unassigned product to show that catalog items are not automatically visible in storefronts.
 
 Administrators can manage shops, assign owners, manage owner accounts, edit catalog products, and control shop listings. Shop owners can browse the shared catalog, list products in their assigned shop, create products that join the catalog, and manage shop-specific listing details. Customer pages are available at `/shop/{shop-slug}`.
 
