@@ -58,6 +58,16 @@ Shoproom is a small shop management app built with Laravel 12, Vue 3, and MySQL.
 
    Open [http://127.0.0.1:8000](http://127.0.0.1:8000). During development, `npm run dev` can be used in a second terminal instead of rebuilding after each frontend change.
 
+## Demo URLs
+
+After `php artisan serve` is running, open these local demo pages:
+
+- Admin and shop owner login: [http://127.0.0.1:8000/login](http://127.0.0.1:8000/login)
+- Green Basket customer storefront: [http://127.0.0.1:8000/shop/green-basket](http://127.0.0.1:8000/shop/green-basket)
+- Little Market customer storefront: [http://127.0.0.1:8000/shop/little-market](http://127.0.0.1:8000/shop/little-market)
+
+These links point to the local server on the computer running the project. If you start Laravel on a different port, replace `8000` in each link with that port.
+
 ## Sample logins
 
 The seeder creates these accounts with the password `password`:
